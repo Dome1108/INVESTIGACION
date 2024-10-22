@@ -3,6 +3,8 @@ import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 import plotly.express as px
+import os
+os.system('pip install plotly')
 
 # Cargar los datos
 df = pd.read_excel("./CARRERAS.xlsx")
