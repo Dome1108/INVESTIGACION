@@ -5,13 +5,12 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 
-# Asegurarse de que Plotly esté instalado
+# Asegurarnos de que Plotly esté instalado
 os.system('pip install plotly')
 
-# Cargar los datos (ajusta la ruta del archivo según corresponda)
+# Cargar los datos
 df = pd.read_excel("./CARRERAS.xlsx")
 
-# Título de la aplicación
 st.title("Participación de Estudiantes por Facultad y Carrera")
 
 # Filtros interactivos
