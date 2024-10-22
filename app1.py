@@ -1,14 +1,17 @@
+import os
 import streamlit as st
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
 import plotly.express as px
-import os
+
+# Asegurarse de que Plotly esté instalado
 os.system('pip install plotly')
 
-# Cargar los datos
+# Cargar los datos (ajusta la ruta del archivo según corresponda)
 df = pd.read_excel("./CARRERAS.xlsx")
 
+# Título de la aplicación
 st.title("Participación de Estudiantes por Facultad y Carrera")
 
 # Filtros interactivos
