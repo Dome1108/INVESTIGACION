@@ -5,7 +5,7 @@ import numpy as np
 import plotly.express as px
 
 # Cargar los datos
-df = pd.read_excel('/mnt/data/CARRERAS.xlsx')
+df = pd.read_excel("./CARRERAS.xlsx")
 
 st.title("Participación de Estudiantes por Facultad y Carrera")
 
